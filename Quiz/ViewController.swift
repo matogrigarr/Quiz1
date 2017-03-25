@@ -71,7 +71,7 @@ class QuestionHeader: UITableViewHeaderFooterView {
             addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|[v0]|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": nameLabel]))
         }
     
-
+}
 
 class AnswerCell: UITableViewCell{
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
@@ -96,4 +96,4 @@ class AnswerCell: UITableViewCell{
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat:"H:|-16-[v0]|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": nameLabel]))
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|[v0]|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": nameLabel]))
     }
-    }}
+    }
